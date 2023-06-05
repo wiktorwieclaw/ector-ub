@@ -1,4 +1,4 @@
-# Example how to trigger undefined behavior in safe Rust using `ector`
+# Example how to trigger undefined behavior in safe Rust using `ector` 0.2
 `cargo miri run` output:
 ```
 error: Undefined Behavior: trying to retag from <17366> for SharedReadOnly permission at alloc2[0xa0], but that tag does not exist in the borrow stack for this location
